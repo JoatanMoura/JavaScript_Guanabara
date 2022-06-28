@@ -1,0 +1,1 @@
+- Campo número não pode ser vazio, mas pode ter qualquer valor (zero, positivo ou negativo)

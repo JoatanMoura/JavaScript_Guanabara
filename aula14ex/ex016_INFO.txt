@@ -1,0 +1,8 @@
+Input textbox Início, Fim, Passo
+Input button Contar
+
+
+- Se uma das caixas estiver vazia, texto "Impossível contar!" na div res.
+- Se o passo for igual a zero, alert "Passo inválido! Considerando PASSO 1" e faz a contagem.
+
+Entre os valores colocar um emoji de dedo apontando para direita e no final, uma bandeirinha.
