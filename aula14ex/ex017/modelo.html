@@ -16,23 +16,34 @@
         <div>
             <label for="numero">Número: </label>
             <input type="number" name="numero" id="numero">
+            <table width="60%" height="70em" align="center">
+                <tr>
+                    <td><input type="radio" name="operacao" id="adi">
+                        <label for="adi">+</label></td>
+                    <td><input type="radio" name="operacao" id="sub">
+                        <label for="sub">-</label></td>
+                    <td><input type="radio" name="operacao" id="mul">
+                        <label for="mul">*</label></td>
+                    <td><input type="radio" name="operacao" id="div">
+                        <label for="div">/</label></td>
+                </tr>
+            </table>
             <p>
-                <input type="radio" name="operacao" id="adi">
-                <label for="adi">+</label>
-                <input type="radio" name="operacao" id="sub">
-                <label for="sub">-</label>
-                <input type="radio" name="operacao" id="mul">
-                <label for="mul">*</label>
-                <input type="radio" name="operacao" id="div">
-                <label for="div">/</label>
+                    
+                   
+                   
+                
             </p>
             <input type="button" value="Gerar Tabuada">
             
         </div>
         <div>
-            <select name="tabuada" id="tabuada">
+            <select name="tabuada" id="tabuada" width="300px" height="500px">
                 
             </select>
+        </div>
+        <div id="res">
+            Contando:
         </div>
     </section>
     <footer>

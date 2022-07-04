@@ -48,7 +48,8 @@ function conta2 () {
             valFim = valFim + passo
         } 
     }
-
+    lista = lista + ' # '
+    
     res.innerHTML = `Contando: <br>${lista}`
     //res.innerHTML = lista
 }
